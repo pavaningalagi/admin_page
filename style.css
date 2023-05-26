@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main_page {
+    display: flex;
+}
+
+#title_page {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    /* align-items: center; */
+}
+
+.titles {
+    max-width: 100%;
+    display: flex;
+    /* float: left; */
+    /* color: #f2f2f2; */
+    /* text-align: center; */
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 18px;
+    /* border: 2px solid blue; */
+    align-items: center;
+    justify-content: start;
+    gap: 5%;
+
+}
+
+.titles:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.titles span {
+    font-size: 25px;
+}
+
+#container {
+    /* border: 2px solid black; */
+    border-left: 5px solid black;
+    margin-left: 10px;
+    width: 100%;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar span {
+    font-size: 40px;
+    margin-left: -50px;
+}
+
+#navbar input {
+    border-radius: 15px;
+    height: 30px;
+    width: 600px;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+#scorecards {
+    /* border: 2px solid red; */
+    /* max-width: 100%; */
+    display: flex;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 18px;
+    /* border: 2px solid blue; */
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5%;
+
+}
+
+#scorecards li {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid blue; */
+    padding: 10px 10px;
+    justify-content: flex-start;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    column-gap: 20px;
+    cursor: pointer;
+}
+
+#scorecards li span:first-child {
+    font-size: 80px;
+}
+
+#scorecards li:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#graph {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 25px 40px 40px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#myChart {
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.sidewindow {
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#table {
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 25px 25px;
+    padding: 10px 10px;
+}
+
+.table {
+    border-collapse: collapse;
+    cursor: pointer;
+    width: 75%;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.table td,
+th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.table tr:nth-child(even) {
+    /* color: #dddddd; */
+    background-color: #8f8f8f;
+}
+
+
+.table tr th:last-child {
+    width: 200px;
+}
+
+#filter {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    /* justify-content: center; */
+    row-gap: 10px;
+}
+#filter h3 {
+/* border: 2px solid red; */
+margin: 0px;
+}
+#filter input {
+    width: 80%;
+    font-size: 12px;
+
+}
+#filter button{
+    width: 60px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Page</title>
+  <style>
+    /* CSS styles for the page */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .scorecard {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .graph {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Page</h1>
+
+    <div class="scorecard">
+      <h2>Scorecard 1</h2>
+      <p>Scorecard 1 content goes here.</p>
+    </div>
+
+    <div class="scorecard">
+      <h2>Scorecard 2</h2>
+      <p>Scorecard 2 content goes here.</p>
+    </div>
+
+    <div class="graph">
+      <h2>Graph</h2>
+      <p>Graph content goes here.</p>
+    </div>
+
+    <div class="table">
+      <h2>Table</h2>
+      <label for="date-range-filter">Date Range:</label>
+      <input type="date" id="date-range-filter">
+      
+      <label for="dimension-filter">Dimension:</label>
+      <select id="dimension-filter">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+          </tr>
+          <tr>
+            <td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>
